@@ -1,9 +1,9 @@
 BITS    64
 
 SECTION .text
-GLOBAL  my_strcspn
+GLOBAL  strcspn
 
-my_strcspn:
+strcspn:
     PUSH    RBP
     MOV     RBP, RSP
 
